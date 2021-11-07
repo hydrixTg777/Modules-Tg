@@ -1,15 +1,10 @@
-"""	
-	Anilist Search Plugin for Userbot	
-	Usage : .anilist animeName	
-	By :- @Zero_cool7870	
-"""
 
 import requests 
 import re
 import json
 import asyncio
-from ULTRA import CMD_HELP
-from ULTRA.utils import admin_cmd, edit_or_reply, sudo_cmd
+from beastx import CMD_HELP
+from beastx.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 async def callAPI(search_str):
     query = '''
