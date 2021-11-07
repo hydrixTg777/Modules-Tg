@@ -1,8 +1,8 @@
 import asyncio
 from collections import deque
 
-from ULTRA.utils import admin_cmd, edit_or_reply, sudo_cmd
-from ULTRA import CMD_HELP
+from beastx.utils import admin_cmd, edit_or_reply, sudo_cmd
+from beastx import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern="think$", outgoing=True))
